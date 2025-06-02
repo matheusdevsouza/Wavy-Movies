@@ -1,0 +1,204 @@
+# -------------------------------
+# Node.js dependencies
+# -------------------------------
+node_modules/
+package-lock.json
+yarn.lock
+
+# -------------------------------
+# Build outputs
+# -------------------------------
+/build
+/dist
+.next
+.nuxt
+.cache
+.parcel-cache
+.storybook-out
+.out
+public/*.js
+public/*.css
+public/*.map
+
+# Se quiser manter apenas o index.html
+!public/index.html
+
+# -------------------------------
+# Environment variables
+# -------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+*.env
+
+# -------------------------------
+# Sensitive files / secrets
+# -------------------------------
+**/config/keys.js
+**/config/secrets.js
+**/config/credentials.json
+**/*credentials*
+**/*secrets*
+**/*keys*
+**/*api-key*
+**/*apikey*
+**/auth.json
+**/firebase-adminsdk-*.json
+**/.credentials/
+**/service-account*.json
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+**/ssl/
+**/certificates/
+**/private/
+**/confidential/
+**/sensitive/
+
+# -------------------------------
+# Logs and runtime
+# -------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+*.log.*
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------------
+# Coverage
+# -------------------------------
+coverage/
+.nyc_output
+*.lcov
+
+# -------------------------------
+# Editor/IDE files
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# -------------------------------
+# Cache / Temporary / Backup files
+# -------------------------------
+tmp/
+temp/
+.tmp/
+.temp/
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+*.swp
+*.tmp
+
+# -------------------------------
+# OS generated files
+# -------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -------------------------------
+# TypeScript / Yarn / REPL
+# -------------------------------
+*.tsbuildinfo
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.node_repl_history
+
+# -------------------------------
+# Tools and deployment
+# -------------------------------
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+docker-compose.override.yml
+.dockerignore.local
+.tern-port
+.vscode-test
+.serverless/
+.terraform/
+.firebase/
+firebase-debug.log
+firestore-debug.log
+.aws/
+aws-exports.js
+.vercel
+.fusebox/
+.dynamodb/
+
+# -------------------------------
+# Database files
+# -------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+/database/
+/data/
+*.sql
+*.dump
+
+# -------------------------------
+# Uploads / User data (ajuste se usar)
+# -------------------------------
+/uploads/
+public/images/
+**/user-content/
+**/user-data/
+**/user-uploads/
+**/private-files/
+**/storage/
+**/files/
+**/media/private/
+
+# -------------------------------
+# Config / Local settings
+# -------------------------------
+config.local.js
+config.local.json
+settings.local.json
+local.json
+local.js
+.env.example
+config.json
+config/
+src/config/
+
+# -------------------------------
+# Arquivos específicos do projeto
+# -------------------------------
+server.js
+tmdbApi.js
+.htaccess
