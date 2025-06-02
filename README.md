@@ -48,7 +48,9 @@ Criar uma plataforma de streaming moderna, com foco em:
 
 ---
 
+## 🎬 Vídeo Final
 
+[Ver Vídeo](https://www.youtube.com/watch?v=E_iCAJuDAxg&feature=youtu.be)
 
 ---
 
